@@ -17,8 +17,40 @@
 </head>
 
 <body>
-    <div>
-        <h1>Hello, world!</h1>
+    <div
+    class="background-image bg-no-overlay"
+    style="
+      background-image: url('hero-bg.jpg');
+      height: 100vh;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+    "
+  > 
+    <div class="container">
+        <h3 class="float-md-start mb-0">Cover</h3>
+        <nav class="nav justify-content-center">
+            <a class="nav-link" href="#">home</a> 
+            <a class="nav-link active" aria-current="page" href="#">about</a>
+            <a class="nav-link" href="#">service</a>
+            <a class="nav-link" href="#">portfolio</a>
+            <a class="nav-link" href="#">team</a>
+            <div class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">dropdown</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">something</a>
+                    <hr class="dropdown-divider" >
+                    <a class="dropdown-item" href="#">anders</a>
+                </div>
+            </div>
+            <a class="nav-link" href="#">contact</a>
+            <a class="btn btn-primary" href="#" role="button">Get Started</a>
+        </nav>
+   </div>
+        
+        
     </div>
 </body>
 
