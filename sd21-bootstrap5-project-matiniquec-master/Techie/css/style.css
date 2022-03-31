@@ -1,0 +1,17 @@
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    color: wheat;
+}
+.photo{
+    margin-top: 160px;
+    width: 550px;
+    height: auto;
+}
+.text-1{
+    margin-top: 250px;
+}
+.text-2{
+    margin-left: 200px;
+}
